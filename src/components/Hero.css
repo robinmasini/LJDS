@@ -97,14 +97,13 @@
     width: fit-content;
     font-size: 18px;
     padding: 16px 36px;
-    background: #ff5e3a;
-    /* Phenix style orange/red for CTA */
-    color: #fff;
+    background: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .hero-ctas .btn-primary:hover {
-    background: #e54d2e;
-    box-shadow: 0 10px 20px rgba(255, 94, 58, 0.3);
+    background: var(--color-accent);
+    box-shadow: 0 10px 20px rgba(139, 195, 74, 0.3);
 }
 
 .hero-rating {
