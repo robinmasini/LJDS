@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -8,8 +9,7 @@ const Footer = () => {
                 <div className="footer-top">
                     <div className="footer-brand">
                         <div className="logo">
-                            <span className="logo-lj">LJ</span>
-                            <span className="logo-ds">DS</span>
+                            <img src={logo} alt="LJDS Logo" height="40" />
                         </div>
                         <p>La solution numérique numéro 1 d'importation alimentaire à l'échelle internationale.</p>
                     </div>

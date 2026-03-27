@@ -1,14 +1,13 @@
 import React from 'react';
 import './Navbar.css';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          {/* Logo placeholder - using the primary and secondary colors */}
-          <span className="logo-lj">LJ</span>
-          <span className="logo-ds">DS</span>
+          <img src={logo} alt="LJDS Logo" height="40" />
         </div>
         <ul className="nav-links">
           <li><a href="#services">Services</a></li>
