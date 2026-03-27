@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-top">
                     <div className="footer-brand">
                         <div className="logo">
-                            <img src={logo} alt="LJDS Logo" height="40" />
+                            <img src={logo} alt="LJDS Logo" height="65" />
                         </div>
                         <p>La solution numérique numéro 1 d'importation alimentaire à l'échelle internationale.</p>
                     </div>
