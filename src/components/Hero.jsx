@@ -5,7 +5,9 @@ import heroBg from '../assets/hero-bg.png';
 const Hero = () => {
     return (
         <section className="hero">
-            <div className="hero-bg" style={{ backgroundImage: `url(${heroBg})` }}></div>
+            <video className="hero-video" autoPlay loop muted playsInline poster={heroBg}>
+                <source src="/entrepot-video.mp4" type="video/mp4" />
+            </video>
             <div className="hero-overlay"></div>
 
             <div className="container">
