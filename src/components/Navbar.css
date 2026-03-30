@@ -25,10 +25,14 @@
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    display: block;
+}
+
 
 .logo-lj {
     color: var(--color-primary);
