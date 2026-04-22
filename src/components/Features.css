@@ -1,6 +1,6 @@
 .features {
     padding: var(--section-padding);
-    background: #f8f9fa;
+    background: var(--color-bg);
 }
 
 .features-grid {

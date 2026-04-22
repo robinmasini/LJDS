@@ -1,7 +1,7 @@
 .footer {
     padding: 80px 0 40px;
-    background: #f8f9fa;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background: var(--color-beige);
+    border-top: 1px solid rgba(90, 70, 51, 0.1);
     color: var(--color-primary);
 }
 
