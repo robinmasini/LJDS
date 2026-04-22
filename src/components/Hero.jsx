@@ -5,9 +5,7 @@ import heroBg from '../assets/hero-bg.png';
 const Hero = () => {
     return (
         <section className="hero">
-            <video className="hero-video" autoPlay loop muted playsInline poster={heroBg}>
-                <source src="/entrepot-video.mp4" type="video/mp4" />
-            </video>
+            <img className="hero-video" src={heroBg} alt="Hero Background" />
             <div className="hero-overlay"></div>
 
             <div className="container">
