@@ -1,18 +1,18 @@
 import React from 'react';
 import './Gallery.css';
 
-import img1 from '../assets/Capture d’écran 2026-04-22 à 20.30.35.png';
-import img2 from '../assets/Capture d’écran 2026-04-22 à 20.30.50.png';
-import img3 from '../assets/Capture d’écran 2026-04-22 à 20.30.57.png';
-import img4 from '../assets/Capture d’écran 2026-04-22 à 20.31.07.png';
-import img5 from '../assets/Capture d’écran 2026-04-22 à 20.31.14.png';
-import img6 from '../assets/Capture d’écran 2026-04-22 à 20.31.21.png';
-import img7 from '../assets/Capture d’écran 2026-04-22 à 20.31.54.png';
-import img8 from '../assets/Capture d’écran 2026-04-22 à 20.32.01.png';
-import img9 from '../assets/Capture d’écran 2026-04-22 à 20.32.08.png';
-import img10 from '../assets/Capture d’écran 2026-04-22 à 20.32.17.png';
-import img11 from '../assets/Capture d’écran 2026-04-22 à 20.32.22.png';
-import img12 from '../assets/Capture d’écran 2026-04-22 à 20.32.28.png';
+import img1 from '../assets/gallery-1.png';
+import img2 from '../assets/gallery-2.png';
+import img3 from '../assets/gallery-3.png';
+import img4 from '../assets/gallery-4.png';
+import img5 from '../assets/gallery-5.png';
+import img6 from '../assets/gallery-6.png';
+import img7 from '../assets/gallery-7.png';
+import img8 from '../assets/gallery-8.png';
+import img9 from '../assets/gallery-9.png';
+import img10 from '../assets/gallery-10.png';
+import img11 from '../assets/gallery-11.png';
+import img12 from '../assets/gallery-12.png';
 
 const screenshots = [
   { src: img1, alt: 'Interface LJDS Dashboard' },
