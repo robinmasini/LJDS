@@ -72,6 +72,16 @@
     }
 }
 
+.hero-logo {
+    margin-bottom: 30px;
+}
+
+.hero-logo img {
+    height: 80px;
+    width: auto;
+    display: block;
+}
+
 .hero-title {
     font-size: 56px;
     margin-bottom: 24px;

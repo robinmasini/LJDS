@@ -7,6 +7,12 @@ import img3 from '../assets/Capture d’écran 2026-04-22 à 20.30.57.png';
 import img4 from '../assets/Capture d’écran 2026-04-22 à 20.31.07.png';
 import img5 from '../assets/Capture d’écran 2026-04-22 à 20.31.14.png';
 import img6 from '../assets/Capture d’écran 2026-04-22 à 20.31.21.png';
+import img7 from '../assets/Capture d’écran 2026-04-22 à 20.31.54.png';
+import img8 from '../assets/Capture d’écran 2026-04-22 à 20.32.01.png';
+import img9 from '../assets/Capture d’écran 2026-04-22 à 20.32.08.png';
+import img10 from '../assets/Capture d’écran 2026-04-22 à 20.32.17.png';
+import img11 from '../assets/Capture d’écran 2026-04-22 à 20.32.22.png';
+import img12 from '../assets/Capture d’écran 2026-04-22 à 20.32.28.png';
 
 const screenshots = [
   { src: img1, alt: 'Interface LJDS Dashboard' },
@@ -14,7 +20,13 @@ const screenshots = [
   { src: img3, alt: 'Aperçu Plateforme LJDS' },
   { src: img4, alt: 'Fonctionnalités LJDS' },
   { src: img5, alt: 'Interface utilisateur LJDS' },
-  { src: img6, alt: 'Statistiques LJDS' }
+  { src: img6, alt: 'Statistiques LJDS' },
+  { src: img7, alt: 'Gestion des stocks' },
+  { src: img8, alt: 'Suivi logistique' },
+  { src: img9, alt: 'Catalogue fournisseurs' },
+  { src: img10, alt: 'Analyse des ventes' },
+  { src: img11, alt: 'Configuration système' },
+  { src: img12, alt: 'Support technique' }
 ];
 
 const Gallery = () => {

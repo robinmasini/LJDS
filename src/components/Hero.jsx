@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import heroBg from '../assets/hero-bg.png';
+import logo from '../assets/LJDS.png';
 
 const Hero = () => {
     return (
@@ -10,6 +11,9 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-card">
+                    <div className="hero-logo">
+                        <img src={logo} alt="LJDS Logo" />
+                    </div>
                     <h1 className="hero-title">
                         Maximisez la valeur de votre importation
                     </h1>
