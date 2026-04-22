@@ -19,7 +19,7 @@ const Hero = () => {
                         pour les professionnels exigeants.
                     </p>
                     <div className="hero-ctas">
-                        <button className="btn-primary">Prendre RDV avec un expert</button>
+                        <button className="btn-primary">Faîtes vos demandes</button>
                         <div className="hero-rating">
                             <span className="stars">★★★★★</span>
                             <span className="rating-text">Solution de confiance pour +500 distributeurs</span>
