@@ -19,8 +19,9 @@ const Navbar = () => {
         <div className={`nav-links-container ${isMenuOpen ? 'active' : ''}`}>
           <ul className="nav-links">
             <li><a href="#services" onClick={() => setIsMenuOpen(false)}>Services</a></li>
-            <li><a href="#portfolio" onClick={() => setIsMenuOpen(false)}>Portefeuille</a></li>
-            <li><a href="#about" onClick={() => setIsMenuOpen(false)}>À propos</a></li>
+            <li><a href="#marques" onClick={() => setIsMenuOpen(false)}>Marques</a></li>
+            <li><a href="#marques-blanches" onClick={() => setIsMenuOpen(false)}>Marques blanches</a></li>
+            <li><a href="#travailler-avec-ljdm" onClick={() => setIsMenuOpen(false)}>Travailler avec LJDM</a></li>
             <li><button className="btn-secondary">Contact</button></li>
           </ul>
         </div>

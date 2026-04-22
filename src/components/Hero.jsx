@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="container">
                 <div className="hero-card">
                     <h1 className="hero-title">
-                        Maximisez la valeur de votre importation
+                        Nous travaillons sur votre ressenti alimentaire !
                     </h1>
                     <p className="hero-description">
                         La solution numérique numéro 1 d'importation alimentaire à l'échelle internationale.
