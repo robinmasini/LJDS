@@ -113,7 +113,7 @@
 
 .hero-ctas .btn-primary:hover {
     background: var(--color-accent);
-    box-shadow: 0 10px 20px rgba(42, 126, 67, 0.3);
+    box-shadow: 0 10px 20px rgba(137, 162, 140, 0.3);
 }
 
 .hero-rating {

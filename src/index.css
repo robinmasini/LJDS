@@ -1,12 +1,13 @@
 :root {
   /* Brand Colors */
-  --color-primary: #2B3A8B; /* Dark Blue from LJ */
-  --color-secondary: #2A7E43; /* Brand Green from new logo */
-  --color-accent: #348E4F; /* Lighter Green */
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-light: #ffffff;
-  --color-dark-overlay: rgba(18, 14, 14, 0.85); /* Phenix style dark overlay */
+  --color-primary: #5A4633; /* Brun Terre d'Ombre (replaces Navy) */
+  --color-secondary: #89A28C; /* Vert Eucalyptus */
+  --color-accent: #D1B97A; /* Doré Champagne */
+  --color-beige: #D8C3A5; /* Beige Chanvre */
+  --color-bg: #EDE6DA; /* Lin Naturel */
+  --color-text: #5A4633;
+  --color-text-light: #EDE6DA;
+  --color-dark-overlay: rgba(90, 70, 51, 0.85); /* Brun overlay */
   
   /* Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.1);
