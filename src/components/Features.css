@@ -17,7 +17,7 @@
     flex-direction: column;
     gap: 20px;
     border: 1px solid rgba(0, 0, 0, 0.05);
-    background: #fff;
+    background: var(--color-beige);
     /* Light mode contrast */
     border-radius: 32px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);

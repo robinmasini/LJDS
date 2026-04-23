@@ -50,10 +50,10 @@
 
 .hero-card {
     max-width: 580px;
-    background: var(--color-dark-overlay);
+    background: var(--color-beige);
     padding: 60px;
     border-radius: 40px;
-    color: var(--color-text-light);
+    color: var(--color-primary);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
