@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import logo from '../assets/LJDS.png';
 import heroBg from '../assets/gallery-4.png';
 
 const Hero = () => {
@@ -10,6 +11,9 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-card">
+                    <div className="hero-logo">
+                        <img src={logo} alt="LJDS Logo" />
+                    </div>
                     <h1 className="hero-title">
                         Nous travaillons sur votre ressenti alimentaire !
                     </h1>
