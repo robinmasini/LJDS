@@ -17,9 +17,31 @@
 .gallery-header p {
     font-size: 18px;
     color: var(--color-text);
-    opacity: 0.8;
-    max-width: 600px;
+    opacity: 0.9;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+.philosophy-text {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.philosophy-text p {
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+.brands-intro {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.brands-intro h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--color-primary);
 }
 
 .gallery-grid {

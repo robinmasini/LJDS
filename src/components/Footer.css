@@ -14,16 +14,18 @@
 }
 
 .footer-brand {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .footer-brand .logo {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.footer-brand p {
-    opacity: 0.7;
-    font-size: 14px;
+.footer-contact-info p {
+    opacity: 0.8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 16px;
 }
 
 .footer-links {

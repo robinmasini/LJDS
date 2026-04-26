@@ -20,9 +20,9 @@ const Navbar = () => {
           <ul className="nav-links">
             <li><a href="#services" onClick={() => setIsMenuOpen(false)}>Services</a></li>
             <li><a href="#marques" onClick={() => setIsMenuOpen(false)}>Marques</a></li>
-            <li><a href="#marques-blanches" onClick={() => setIsMenuOpen(false)}>Marques blanches</a></li>
-            <li><a href="#travailler-avec-ljdm" onClick={() => setIsMenuOpen(false)}>Travailler avec LJDM</a></li>
-            <li><button className="btn-secondary">Contact</button></li>
+            <li><a href="#white-label" onClick={() => setIsMenuOpen(false)}>Marques blanches</a></li>
+            <li><a href="#travailler-avec-ljds" onClick={() => setIsMenuOpen(false)}>Travailler avec LJDS</a></li>
+            <li><a href="#contact" className="btn-secondary" onClick={() => setIsMenuOpen(false)}>Contact</a></li>
           </ul>
         </div>
 

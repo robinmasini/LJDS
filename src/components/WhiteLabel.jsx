@@ -31,11 +31,15 @@ const WhiteLabel = () => {
             <div className="container">
                 <div className="white-label-content">
                     <div className="badge">PARTENARIAT EXCLUSIF</div>
-                    <h2>Propulsez votre marque avec LJDS</h2>
+                    <h2>Marques blanches</h2>
                     <p>
-                        Notre solution de <strong>Marque Blanche</strong> vous permet d'intégrer notre
-                        vaste portefeuille de fournisseurs et notre logistique internationale sous
-                        votre propre identité. Une solution clé en main pour les distributeurs.
+                        Elle constitue un axe stratégique majeur de l’activité de LJDS. De plus en plus de retailers choisissent de développer leur propre marque afin de se différencier, de renforcer leur image et d’améliorer leurs marges. LJDS accompagne ses partenaires tout au long de ce processus, de la sélection des produits jusqu’à leur mise sur le marché.
+                    </p>
+                    <p>
+                        Grâce à un sourcing international rigoureux, LJDS identifie des produits adaptés à la stratégie et au positionnement de chaque enseigne. Le développement couvre l’ensemble de la chaîne : formulation, contrôle qualité, packaging, étiquetage et logistique. Chaque projet est mené avec une attention particulière portée aux tendances du marché, aux normes en vigueur et aux objectifs commerciaux.
+                    </p>
+                    <p>
+                        Le résultat est une offre white label cohérente, compétitive et parfaitement alignée avec l’identité de la marque du client. LJDS développe et commercialise également ses propres marques. Ces labels sont le fruit de partenariats de long terme avec des producteurs sélectionnés et d’une connaissance approfondie des origines et des marchés.
                     </p>
 
                     {!submitted ? (

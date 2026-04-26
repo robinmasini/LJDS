@@ -11,19 +11,25 @@ const Footer = () => {
                         <div className="logo">
                             <img src={logo} alt="LJDS Logo" height="50" />
                         </div>
-                        <p>La solution numérique numéro 1 d'importation alimentaire à l'échelle internationale.</p>
+                        <div className="footer-contact-info" id="contact">
+                            <p>
+                                LJDS est implantée dans le sud de la France, dans la région de Marseille. Depuis cette localisation stratégique, nous opérons à l’échelle internationale et collaborons avec des partenaires dans de nombreux pays.
+                            </p>
+                            <p>
+                                Pour toute question, information complémentaire ou opportunité de collaboration, nous vous invitons à nous contacter.
+                            </p>
+                        </div>
                     </div>
                     <div className="footer-links">
                         <div className="link-group">
                             <h4>Plateforme</h4>
-                            <a href="#">Comment ça marche</a>
-                            <a href="#">Fournisseurs</a>
-                            <a href="#">Marque Blanche</a>
+                            <a href="#services">Services</a>
+                            <a href="#marques">Marques</a>
+                            <a href="#white-label">Marques Blanches</a>
                         </div>
                         <div className="link-group">
                             <h4>Société</h4>
-                            <a href="#">À propos</a>
-                            <a href="#">Blog</a>
+                            <a href="#travailler-avec-ljds">Travailler avec LJDS</a>
                             <a href="#">Contact</a>
                         </div>
                     </div>
