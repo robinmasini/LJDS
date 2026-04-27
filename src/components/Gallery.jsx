@@ -25,12 +25,12 @@ const screenshots = [
 
 const Gallery = () => {
   return (
-    <section className="gallery-section" id="gallery">
+    <section className="gallery-section" id="marques">
       <div className="container">
         <div className="gallery-header">
           <h2>Nos Marques & Nos Produits</h2>
           
-          <div className="brands-intro" id="marques">
+          <div className="brands-intro">
             <h3>Nos Propres Marques</h3>
             <p>
               Sous les marques <strong>Les Jardins du Sud</strong> et <strong>Piska</strong>, LJDS propose des produits food & beverage soigneusement sélectionnés, alliant qualité, authenticité et régularité. Chaque label possède sa propre identité et son propre univers, tout en partageant les mêmes valeurs fondamentales. Vous trouverez ci-dessous un aperçu de nos labels.
