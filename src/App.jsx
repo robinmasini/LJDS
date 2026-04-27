@@ -14,8 +14,8 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
-      <Features />
       <Gallery />
+      <Features />
       <WhiteLabel />
       <Partners />
       <About />
