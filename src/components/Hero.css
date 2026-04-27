@@ -108,8 +108,8 @@
 }
 
 .hero-ctas .btn-primary:hover {
-    background: var(--color-accent);
-    box-shadow: 0 10px 20px rgba(137, 162, 140, 0.3);
+    background: var(--color-primary);
+    box-shadow: 0 10px 20px rgba(90, 70, 51, 0.3);
 }
 
 .hero-rating {

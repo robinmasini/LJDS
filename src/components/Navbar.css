@@ -133,7 +133,7 @@
 }
 
 .btn-secondary {
-    background: var(--color-primary);
+    background: var(--color-secondary);
     color: #fff !important; /* Ensure it stays white */
     padding: 10px 24px;
     border-radius: 50px;
@@ -144,7 +144,7 @@
 }
 
 .btn-secondary:hover {
-    background: var(--color-secondary);
-    color: var(--color-primary);
+    background: var(--color-primary);
+    color: #fff !important;
     transform: translateY(-2px);
 }
