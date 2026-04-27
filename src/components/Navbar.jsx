@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <img src={logo} alt="LJDS Logo" height="45" />
+          <img src={logo} alt="LJDS Logo" />
         </div>
 
         <div className={`nav-links-container ${isMenuOpen ? 'active' : ''}`}>

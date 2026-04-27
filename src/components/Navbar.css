@@ -28,6 +28,9 @@
 
 .logo img {
     display: block;
+    height: 55px; /* Enlarged from 45px */
+    width: auto;
+    margin-left: 15px; /* Slight shift to the right */
 }
 
 
@@ -131,7 +134,7 @@
 
 .btn-secondary {
     background: var(--color-primary);
-    color: #fff;
+    color: #fff !important; /* Ensure it stays white */
     padding: 10px 24px;
     border-radius: 50px;
     border: none;
