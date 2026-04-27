@@ -45,7 +45,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .hero-card {
@@ -75,15 +77,6 @@
     }
 }
 
-.hero-logo {
-    margin-bottom: 30px;
-}
-
-.hero-logo img {
-    height: 80px;
-    width: auto;
-    display: block;
-}
 
 .hero-title {
     font-size: 56px;

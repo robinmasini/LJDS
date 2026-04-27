@@ -11,9 +11,6 @@ const Hero = () => {
 
             <div className="container">
                 <div className="hero-card">
-                    <div className="hero-logo">
-                        <img src={logo} alt="LJDS Logo" />
-                    </div>
                     <h1 className="hero-title">
                         Nous travaillons sur votre ressenti alimentaire !
                     </h1>
