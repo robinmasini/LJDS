@@ -18,6 +18,7 @@ const Navbar = () => {
 
         <div className={`nav-links-container ${isMenuOpen ? 'active' : ''}`}>
           <ul className="nav-links">
+            <li><a href="#about" onClick={() => setIsMenuOpen(false)}>À propos</a></li>
             <li><a href="#services" onClick={() => setIsMenuOpen(false)}>Services</a></li>
             <li><a href="#marques" onClick={() => setIsMenuOpen(false)}>Marques</a></li>
             <li><a href="#white-label" onClick={() => setIsMenuOpen(false)}>Marques blanches</a></li>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 import Gallery from './components/Gallery'
 import Features from './components/Features'
 import WhiteLabel from './components/WhiteLabel'
@@ -13,6 +14,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
+      <About />
       <Gallery />
       <Features />
       <WhiteLabel />

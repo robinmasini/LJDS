@@ -1,0 +1,35 @@
+.about-section {
+    padding: var(--section-padding);
+    background-color: var(--color-bg);
+}
+
+.about-card {
+    padding: 60px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-card h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+    .about-card {
+        padding: 30px;
+    }
+    
+    .about-card h2 {
+        font-size: 32px;
+    }
+}
