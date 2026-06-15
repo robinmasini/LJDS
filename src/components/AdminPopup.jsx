@@ -9,7 +9,7 @@ const AdminPopup = () => {
     if (!isVisible) {
       timer = setTimeout(() => {
         setIsVisible(true);
-      }, 15000);
+      }, 10000);
     }
     return () => clearTimeout(timer);
   }, [isVisible]);
