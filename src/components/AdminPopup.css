@@ -1,0 +1,49 @@
+.admin-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.admin-popup-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+.admin-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.admin-popup-close:hover {
+  color: #000;
+}
+
+.admin-popup-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.admin-popup-content p {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
