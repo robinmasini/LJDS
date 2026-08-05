@@ -7,7 +7,6 @@ import Features from './components/Features'
 import WhiteLabel from './components/WhiteLabel'
 import Partners from './components/Partners'
 import Footer from './components/Footer'
-import AdminPopup from './components/AdminPopup'
 import './App.css'
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       <Partners />
       <About />
       <Footer />
-      <AdminPopup />
     </div>
   )
 }
